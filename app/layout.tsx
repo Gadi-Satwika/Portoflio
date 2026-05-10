@@ -12,34 +12,35 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Ibrahim Memon - Software Engineer & UI/UX Designer",
-  description: "A self-taught UI/UX designer and Software Engineer at WebHR. Creating meaningful and delightful digital products that balance user needs and business goals. 3+ years of industry experience.",
+  title: "Gadi Satwika - Full Stack AI Engineer",
+  description: "Full Stack Developer specializing in the MERN stack and AI integrations. 3rd-year CSE student at RGUKT RK Valley with a 9.89 GPA, currently interning at Smatr. Building scalable systemic solutions.",
   keywords: [
-    "Ibrahim Memon",
-    "Software Engineer",
-    "UI/UX Designer",
-    "Frontend Developer",
+    "Gadi Satwika",
+    "Satwi",
+    "Full Stack Developer",
+    "MERN Stack Engineer",
+    "AI Integrator",
+    "RGUKT RK Valley",
+    "Computer Science Engineer",
+    "Smatr Intern",
     "React Developer",
-    "Next.js Developer",
-    "Web Designer",
-    "WebHR Engineer",
-    "Portfolio",
+    "Next.js Portfolio",
   ],
-  authors: [{ name: "Ibrahim Memon" }],
-  creator: "Ibrahim Memon",
-  publisher: "Ibrahim Memon",
+  authors: [{ name: "Gadi Satwika" }],
+  creator: "Gadi Satwika",
+  publisher: "Gadi Satwika",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://ibiimemon.com",
-    title: "Ibrahim Memon - Software Engineer & UI/UX Designer",
-    description: "A self-taught UI/UX designer and Software Engineer at WebHR. Creating meaningful and delightful digital products.",
-    siteName: "Ibrahim Memon Portfolio",
+    url: "https://satwika-gadi.vercel.app", // Replace with your actual Vercel URL later
+    title: "Gadi Satwika - Full Stack AI Engineer",
+    description: "MERN Stack Specialist & AI Integrator. Explore my projects including QR-Flow and Campus Canteen Connect.",
+    siteName: "Gadi Satwika Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ibrahim Memon - Software Engineer & UI/UX Designer",
-    description: "A self-taught UI/UX designer and Software Engineer at WebHR.",
+    title: "Gadi Satwika - Full Stack AI Engineer",
+    description: "Building the next generation of intelligent web applications.",
   },
   robots: {
     index: true,
@@ -68,7 +69,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href="https://ibiimemon.com" />
+        <link rel="canonical" href="https://satwika-gadi.vercel.app" />
       </head>
       <body
         className={`${poppins.variable} font-sans antialiased`}
