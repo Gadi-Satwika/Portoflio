@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 
 export default function Banner(): React.JSX.Element {
-  const texts = [ "Software Engineer", "Full Stack Developer", "Problem Solver"];
+  const texts = [ "Software Engineer", "Full Stack Developer", "Cybersecutriy Aspirant", "Open Source Contributor"];
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
   const [displayedText, setDisplayedText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
@@ -68,14 +68,14 @@ export default function Banner(): React.JSX.Element {
                   <div className="relative">
                     <p className="text-white text-lg whitespace-nowrap">
                       Hello! I Am{" "}
-                      <span className="text-purple-400">Satwika Gadi</span>
+                      <span className="text-purple-400">Chandu Damarla</span>
                     </p>
                   </div>
                   <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-8 border-l-transparent border-r-8 border-r-transparent border-t-8 border-t-white/10"></div>
                 </div>
               </div>
               <Image
-                src="/assets/Me-Avatar-removebg-preview.png"
+                src="/assets/Chandu-Avatar.webp"
                 alt="Satwika Gadi - Full Stack Developer"
                 width={300}
                 height={300}
@@ -108,26 +108,25 @@ export default function Banner(): React.JSX.Element {
               <div style={{ bottom: 15, top: 10 ,position: "relative" }}>
                 <p className="text-white text-lg">
                   Hello! I Am{" "}
-                  <span className="text-purple-400">Satwika Gadi</span>
+                  <span className="text-purple-400">Damarla Chandu</span>
                 </p>
               </div>
               <div className="absolute -bottom-2 left-8 w-0 h-0 border-l-8 border-l-transparent border-r-8 border-r-transparent border-t-8 border-t-white/10"></div>
             </div>
             <div className="">
-              <p className="text-2xl"> A Developer who </p>
+              <p className="text-2xl"> A Developer who codes for</p>
               <h1 className="text-5xl tracking-tight lg:text-7xl font-semibold text-white leading-tight">
-                codes for the
-                <br /> unseen{" "}
+                secure & resilient digital {" "}
                 <span className="relative inline-block">
                   <Image src="/assets/circle.png" alt="Circle" width={200} height={200} className="absolute mt-2" />
                   <span className="bg-gradient-to-r from-violet-600 via-violet-400 to-violet-600 bg-clip-text text-transparent">
-                    impact...
+                   ecosystems......
                   </span>
                 </span>
                 ...
               </h1>
               <p className="text-md text-white/80">
-                Because performance is the only language that scales.
+                Because performance is nothing without security.
               </p>
             </div>
           </div>
@@ -138,16 +137,10 @@ export default function Banner(): React.JSX.Element {
             <span className="animate-pulse">|</span>
           </p>
           <p className="text-lg lg:text-xl text-white/90 tracking-wide flex flex-wrap items-center justify-center lg:justify-start gap-2">
-            <span>Currently, I&apos;m a Full Stack Engineer at</span>
-            <span className="flex items-center gap-2">
-              <Image src="/assets/webhr.webp" alt="WebHR" width={20} height={20} className="w-5 h-5" style={{ width: "auto", height: "auto" }} />
-              <span className="text-blue-400 font-semibold">Smatr,</span>
-            </span>
+            <span>Currently, I&apos;m Open to Cybersecurity and Developer Roles.</span>
           </p>
           <p className="text-lg text-white/80 max-w-2xl mt-15 mx-auto lg:mx-0">
-            Bridging the gap between robust backend logic and interactive 3D UI.
-            Expert in building intelligent, data-driven apps with MERN and Python.
-            Focused on scalable impact through performance-first software design.
+            I am experienced in prompt engineering, generative AI workflows, and secure backend implementations. Backed by solid credentials (ISC2) and active open-source contributions, aiming to build resilient, intelligent, and secure digital applications
           </p>
         </div>
       </div>

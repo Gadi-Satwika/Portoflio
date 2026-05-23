@@ -11,17 +11,17 @@ interface Project {
 const featuredProjects: Project[] = [
   {
     id: 1,
-    title: "QR-Flow – Dynamic AI-Integrated QR Ecosystem",
-    description: "A comprehensive MERN-stack platform for generating and managing dynamic QR codes with real-time analytics. Features a custom-built AI Assistant powered by Gemini API to provide instant user support and system guidance. Implemented secure authentication and a sleek, high-contrast dashboard for seamless business asset management.",
-    link: "https://shareable-qr.onrender.com/",
-    image: "/projects/Shareable-QR-Project-Screenshot.png",
+    title: "Open Manus AI — Autonomous Agent System",
+    description: "An international program project centered around building and optimizing task-automation agents. Implemented custom prompt engineering strategies and machine learning workflows to handle unstructured data layouts while minimizing API latency for secure, real-time task execution.",
+    link: "https://open-manus-blue.vercel.app/",
+    image: "/projects/Screenshot 2026-05-23 173410.png",
   },
   {
     id: 2,
-    title: "Campus Canteen Connect – Real-time Food Management",
-    description: "A full-stack digital solution for campus dining, bridging the gap between students and canteen operations. Developed with the MERN stack and Styled Components, the system features live order tracking, digital menu management, and a futuristic 'Glassmorphism' UI. Optimized for high-traffic campus environments with a focus on low-latency state management.",
-    link: "https://campus-canteen-rkv.vercel.app/",
-    image: "/projects/Canteen-Project-Screenshot.png",
+    title: "BharatAI-Assist — Voice-Driven Multilingual NLP",
+    description: "A full-stack multilingual assistant platform built using the MERN stack and integrated with the Gemini API. Tailored to provide context-aware crop guidance, healthcare metrics, and digital safety resources across diverse regional languages for rural communities.",
+    link: "https://verdant-khapse-198683.netlify.app/",
+    image: "/projects/Screenshot 2026-05-23 173909.png",
   },
 ];
 

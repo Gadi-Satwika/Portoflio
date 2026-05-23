@@ -10,7 +10,7 @@ export default function Header(): React.JSX.Element {
             href="/" 
             className="text-2xl font-bold text-white hover:text-purple-400 transition-colors"
           >
-          <Image src="/logo/background-removed-background-removed.png" alt="Logo" width={100} height={100} style={{ width: "auto", height: "auto" }} />
+          <Image src="/logo/Chandu-name-logo.png" alt="Logo" width={120} height={120} style={{ width: "auto", height: "auto" }} />
           </Link>
           <ul className="flex items-center gap-8 list-none m-0 p-0">
             <li className="m-0 p-0">

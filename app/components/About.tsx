@@ -8,7 +8,7 @@ export default function About(): React.JSX.Element {
         <div className="text-center mb-16">
           <p className="text-2xl max-w-6xl mx-auto">
             I&apos;m currently looking to join a <span className="text-purple-400">cross-functional team</span><br/> <span className="text-sm">that values 
-            improving people&apos;s lives through accessible design</span>
+            building bulletproof backend architectures and secure AI integrations</span>
           </p>
         </div>
         <Image 

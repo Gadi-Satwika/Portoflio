@@ -11,14 +11,14 @@ interface ExperienceCard {
 const experienceCards: ExperienceCard[] = [
   {
     id: 1,
-    title: "Smatr - Full Stack Development Intern",
-    description: "Currently engineering end-to-end features using the MERN stack. Focused on optimizing backend services and building responsive, data-driven frontend components to enhance user engagement.",
+    title: "AI Mini Agents Virtual Intern — North-Chiang Mai University",
+    description: "Designed and engineered autonomous AI mini-agents utilizing prompt engineering and machine learning workflows. Deployed multi-agent architectures to automate complex, real-world tasks within a structured international academic ecosystem.",
     icon: "/cards/card-1.png",
   },
   {
     id: 2,
-    title: "System Architecture & AI Integration",
-    description: "Collaborating on scalable architecture designs and exploring Gemini API integrations to automate internal workflows and improve application intelligence.",
+    title: "Research Intern — SRM University, AP",
+    description: "Spearheaded comprehensive research on digital banking adoption frameworks, deep-diving into UPI security and fintech vulnerabilities. Analyzed the application of AI, Blockchain, and Cloud architectures to mitigate transaction-level fraud.",
     icon: "/cards/card-3.png", 
   }
 ];

@@ -18,14 +18,14 @@ export default function Footer(): React.JSX.Element {
             href="mailto:ibii.code@gmail.com"
             className="text-md text-purple-400 hover:text-purple-300 transition-colors"
           >
-            satwikagadi2005@gmail.com
+            damarlachandu4@gmail.com
           </a>
         </div>
 
         {/* Social Media Icons */}
         <div className="flex justify-center gap-6 mt-12">
           <Link
-            href="https://github.com/Gadi-Satwika"
+            href="https://github.com/DamarlaChandu"
             target="_blank"
             rel="noopener noreferrer"
             className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 border border-purple-500/30 hover:border-purple-500/50 transition-all"
@@ -40,7 +40,7 @@ export default function Footer(): React.JSX.Element {
             </svg>
           </Link>
           <Link
-            href="https://www.linkedin.com/in/gadisatwika"
+            href="https://www.linkedin.com/in/chandu-damarla?utm_source=share_via&utm_content=profile&utm_medium=member_android"
             target="_blank"
             rel="noopener noreferrer"
             className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 border border-purple-500/30 hover:border-purple-500/50 transition-all"
@@ -58,7 +58,7 @@ export default function Footer(): React.JSX.Element {
 
         <div className="text-center mt-12 pt-8 border-t border-white/10">
           <p className="text-white/60 text-sm">
-            © {new Date().getFullYear()} Satwika Gadi. All rights reserved.
+            © {new Date().getFullYear()} Damarla Chandu. All rights reserved.
           </p>
         </div>
       </div>
