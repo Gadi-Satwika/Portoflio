@@ -76,7 +76,7 @@ export default function Banner(): React.JSX.Element {
               </div>
               <Image
                 src="/assets/Chandu-Avatar.webp"
-                alt="Satwika Gadi - Full Stack Developer"
+                alt="Chandu Damarla - Full Stack Developer"
                 width={300}
                 height={300}
                 className=" max-w-md absolute"
@@ -85,7 +85,7 @@ export default function Banner(): React.JSX.Element {
               />
               <Image
                 src="/assets/me-glow.png"
-                alt="Satwika Gadi - Full Stack Developer"
+                alt="Chandu Damarla - Full Stack Developer"
                 width={300}
                 height={300}
                 className="max-w-md "

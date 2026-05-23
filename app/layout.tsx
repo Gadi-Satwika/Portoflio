@@ -12,11 +12,11 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Gadi Satwika - Full Stack AI Engineer",
-  description: "Full Stack Developer specializing in the MERN stack and AI integrations. 3rd-year CSE student at RGUKT RK Valley with a 9.89 GPA, currently interning at Smatr. Building scalable systemic solutions.",
+  title: "Damarla Chandu - Full Stack and Cyber Security Engineer",
+  description: "Full Stack Developer and Cyber Security Aspirant. Final-year CSE student at SRM University with a 7.6 GPA. Building scalable systemic solutions.",
   keywords: [
-    "Gadi Satwika",
-    "Satwi",
+    "Damarla Chandu",
+    "Chandu",
     "Full Stack Developer",
     "MERN Stack Engineer",
     "AI Integrator",
@@ -25,21 +25,22 @@ export const metadata: Metadata = {
     "Smatr Intern",
     "React Developer",
     "Next.js Portfolio",
+    "Cyber Security Aspirant"
   ],
-  authors: [{ name: "Gadi Satwika" }],
-  creator: "Gadi Satwika",
-  publisher: "Gadi Satwika",
+  authors: [{ name: "Damarla Chandu" }],
+  creator: "Damarla Chandu",
+  publisher: "Damarla Chandu",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://satwika-gadi.vercel.app", // Replace with your actual Vercel URL later
+    url: "https://chandu-damarla.vercel.app", // Replace with your actual Vercel URL later
     title: "Gadi Satwika - Full Stack AI Engineer",
     description: "MERN Stack Specialist & AI Integrator. Explore my projects including QR-Flow and Campus Canteen Connect.",
-    siteName: "Gadi Satwika Portfolio",
+    siteName: "Damarla Chandu Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Gadi Satwika - Full Stack AI Engineer",
+    title: "Damarla Chandu - Full Stack and Cyber Engineer",
     description: "Building the next generation of intelligent web applications.",
   },
   robots: {
@@ -69,7 +70,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href="https://satwika-gadi.vercel.app" />
+        <link rel="canonical" href="https://chandu-damarla.vercel.app" />
       </head>
       <body
         className={`${poppins.variable} font-sans antialiased`}
